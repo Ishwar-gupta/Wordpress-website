@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color:rgb(39, 28, 28);
+    padding: 30px;
+    margin: 10px 60px;
+    max-height: 700px;
+    
+}
+#flo{
+    font-weight: 900;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+.navbar{
+    display: flex;
+    gap: 40%;
+}
+ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#hvvr:hover{
+    color: orange;
+    background-color: white;
+    padding: 2px 10px;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#helo,#abt{
+    color: rgb(228, 228, 3);
+    margin-bottom: 20px;
+}
+#about{
+    color: white;
+}
+pre{
+    font-family: sans-serif;
+    color: white;
+    font-size: large;
+    line-height: 2;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+button{
+    padding: 20px 50px;
+   font-family: sans-serif;
+   font-size: large;
+   font-weight: 600;
+}
+#hire{
+    background-color: purple;
+    border: 2px solid purple;
+    color: white;
+    border-radius: 7px;
+}
+#cv{
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 7px;
+}
+#cv:hover{
+    color: orange;
+    background-color: white;
+    border: 2px solid orange;
+    scale: 1.2;
+}
+#hire:hover{
+    color: purple;
+    background-color: white;
+    scale: 1.2;
+}
+.btm{
+    display: flex;
+    gap: 100px;
+    margin-top: 55px;
+}
+.main,.data2{
+    display: flex;
+}
+.data1{
+    margin-top: 200px;
+}
+#imgg{
+    margin-top: 20px;
+    width: 550px;
+    height: 80%;
+    margin-left: 50px;
+}
